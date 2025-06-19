@@ -93,7 +93,7 @@ export function FloatingNav() {
                 Resume
               </Button> */}
 
-              <a href="/Rashmi_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
+              <a href="./Rashmi_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
               <Button 
                   size="sm"
               className="ml-2 bg-gradient-to-r from-green-dark to-green-medium hover:from-green-medium hover:to-green-dark border-0">
