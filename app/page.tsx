@@ -128,7 +128,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-green-dark/20 to-green-medium/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/profilephoto.jpg?height=600&width=600"
+                  src="./profilephoto.jpg?height=600&width=600"
                   alt="Rashmi Nimesha Gamage"
                   className="w-full h-full object-cover"
                 />
@@ -172,7 +172,7 @@ export default function Portfolio() {
                 </div>
 
               <div className="mt-8">
-              <a href="/Rashmi_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
+              <a href="./Rashmi_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
               <Button className="bg-zinc-800 hover:bg-zinc-700 text-white">
                Download Resume
                 </Button>
@@ -225,7 +225,7 @@ export default function Portfolio() {
 improve operational efficiency, a fleet owner app for tracking and reporting earnings, a bus operator app for 
 real-time payment notifications, and a passenger app for QR-based payments through a virtual wallet. "
               tags={["JAVA", "SpringBoot", "XML", "MySQL"]}
-              image="/canpay.png?height=400&width=600"
+              image="./canpay.png?height=400&width=600"
               demoUrl="https://www.figma.com/design/AZjqPHCqmq6pC73HdmqFoX/CanPay---Passenger---V1?node-id=39-92&t=W8D3sAGl8wwJAAMs-1"
               repoUrl="https://github.com/rashmiNimesha/canPay-api.git"
             />
@@ -233,7 +233,7 @@ real-time payment notifications, and a passenger app for QR-based payments throu
               title="Academic Outcomes Prediction"
               description="Developed a predictive model to determine students' academic outcomes using logistic regression. The system classifies students into three categories: graduate (successfully complete studies), dropout (leave due to academic failure), and enrolled (remain but show signs of discouragement). Aimed at supporting early intervention strategies in educational institutions."
               tags={["Python", "Jupiter Notebook "]}
-              image="/LearningPrediction.drawio.png?height=400&width=600"
+              image="./LearningPrediction.drawio.png?height=400&width=600"
               demoUrl="https://youtu.be/HdQkuprx5UU"
               repoUrl="https://github.com/rashmiNimesha/ACADEMIC-OUTCOMES-PREDICTION.git"
             />
@@ -241,7 +241,7 @@ real-time payment notifications, and a passenger app for QR-based payments throu
               title="RECYCHAMP"
               description="RecyChamp is a mobile application promoting environmental sustainability by encouraging users to participate in recycling challenges. The app provides a platform for users to discover, join, and compete in various recycling challenges, earn badges, and contribute to a greener planet."
               tags={["Flutter", "Firebase", " Cloud Firestore "]}
-              image="/recychamp.png?height=400&width=600"
+              image="./recychamp.png?height=400&width=600"
               demoUrl="https://youtu.be/XonICD4DVPM?si=nqGcosMz95iP_B6-"
               repoUrl="https://github.com/vinulays/recychamp.git"
             />
@@ -249,7 +249,7 @@ real-time payment notifications, and a passenger app for QR-based payments throu
               title="TechPluse Mobile Application"
               description="TechPluse is a mobile application designed to deliver the latest news and updates related to academics, events, and sports within the Faculty of Technology at the University of Colombo. The app provides students and staff with a centralized platform to stay informed about faculty-related activities, announcements, and achievements, ensuring seamless communication and engagement across the university community."
               tags={["JAVA", "Firebase"]}
-              image="/techpluse.png?height=400&width=600"
+              image="./techpluse.png?height=400&width=600"
               demoUrl="https://www.figma.com/proto/k4f3BM0TMl1UYrcf0vKZ6h/TechPulse?node-id=7-59&t=m4C3HliEtehuOs38-1"
               repoUrl="https://github.com/rashmiNimesha/techPluseApp.git"
             />
@@ -257,7 +257,7 @@ real-time payment notifications, and a passenger app for QR-based payments throu
               title="CropCare Mobile Application"
               description="The high-fidelity prototype of the CropCare mobile application presents a visually polished and interactive design that closely resembles the final product. CropCare is a comprehensive mobile solution developed to support farmers by providing critical agricultural information and a collaborative platform. The prototype features smooth navigation, detailed UI components, and realistic content to reflect core functionalities."
               tags={["Figma"]}
-              image="/cropcare.png?height=400&width=600"
+              image="./cropcare.png?height=400&width=600"
               demoUrl="https://youtu.be/KdHR5jsso24"
               repoUrl="https://www.figma.com/proto/VFTvOOOGPymD4QKfRvKUnd/CropCare-Individual-Coursework?node-id=0-1&t=4B8N55bVmIZSvUVC-1"
             />
