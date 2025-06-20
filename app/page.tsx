@@ -12,6 +12,8 @@ import { MouseFollower } from "@/components/mouse-follower"
 import { ScrollProgress } from "@/components/scroll-progress"
 import { SectionHeading } from "@/components/section-heading"
 import { GlassmorphicCard } from "@/components/glassmorphic-card"
+import { CertificationCard } from "@/components/certification-card"
+
 
 export default function Portfolio() {
   return (
@@ -45,18 +47,22 @@ export default function Portfolio() {
               I craft exceptional digital experiences with code, creativity, and a passion for innovation.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
+              <a href="#projects">
               <Button className="relative overflow-hidden group bg-gradient-to-r from-green-dark to-green-medium border-0">
                 <span className="relative z-10 flex items-center">
                   View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
                 <span className="absolute inset-0 bg-gradient-to-r from-green-medium to-green-dark opacity-0 group-hover:opacity-100 transition-opacity"></span>
               </Button>
+              </a>
+              <a href="#contact">
               <Button
                 variant="outline"
-                className="border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500"
+                className="border-zinc-700 text-zinc-300 hover:text-black hover:border-zinc-500"
               >
                 Contact Me
               </Button>
+              </a>
             </div>
             <div className="flex gap-4 pt-4">
               <Link href="https://github.com/rashmiNimesha" target="_blank" rel="noopener noreferrer">
@@ -285,6 +291,55 @@ real-time payment notifications, and a passenger app for QR-based payments throu
 
           <div className="mt-16">
             <Timeline />
+          </div>
+        </div>
+      </section>
+
+       <section id="qualifications" className="py-32 relative">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-green-medium rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-green-dark rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+        </div>
+
+        <div className="container relative z-10">
+          <SectionHeading title="Professional Qualifications" subtitle="Certifications and achievements" />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+            <CertificationCard
+              title="Completed certification in Java application development using JAVASE"
+              issuer="University of Colombo: School of Computing"
+              date="2020"
+              description=""
+              certificateUrl="./javacertification.jpg"
+            />
+            <CertificationCard
+              title="AWS Cloud Map"
+              issuer="LinkedIn Learning Certificate of Completion"
+              date="2025"
+              description=""
+              certificateUrl="https://www.linkedin.com/learning/certificates/53d4aacda2bcd539cb82de2e8df22ed0b7795204ab22aca6da0fdf589b4fd4fc?trk=share_certificate"
+            />
+            <CertificationCard
+              title="Java Object-Oriented Programming"
+              issuer="LinkedIn Learning Certificate of Completion"
+              date="2024"
+              description=""
+              certificateUrl="https://www.linkedin.com/learning/certificates/2c84a7af2a5e946f7c24c5eca765aa4042873c0be1596c02286478f9038d9596?trk=share_certificate"
+            />
+            <CertificationCard
+              title="DevOps Foundations: Site Reliability Engineering"
+              issuer="LinkedIn Learning Certificate of Completion"
+              date="2024"
+              description=""
+              certificateUrl="https://www.linkedin.com/learning/certificates/ea59fb727d36a8591eff6e83851d2902885b7351940bb5d17673ef984c06d347?trk=share_certificate"
+            />
+            <CertificationCard
+              title="Dynamic Application Security Testing"
+              issuer="LinkedIn Learning Certificate of Completion"
+              date="2024"
+              description=""
+              certificateUrl="https://www.linkedin.com/learning/certificates/166b5909aacb48ef7325f41f390d772ae061b777558b6ca0e302a984e0da2935?trk=share_certificate"
+            />
           </div>
         </div>
       </section>

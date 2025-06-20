@@ -31,6 +31,7 @@ export function FloatingNav() {
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
     { name: "Experience", href: "#experience" },
+    { name: "Qualifications", href: "#qualifications" },
     { name: "Contact", href: "#contact" },
   ]
 
