@@ -142,7 +142,7 @@ export default function Portfolio() {
                 <div className="absolute bottom-0 left-0 w-full p-6">
                   <div className="flex items-center gap-2">
                     <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
-                    <span className="text-sm font-medium">Looking for new opportunities</span>
+                    <span className="text-sm font-medium">Passionate developer open to opportunities.</span>
                   </div>
                 </div>
               </div>
@@ -154,8 +154,7 @@ export default function Portfolio() {
                  I am an Associate Software Engineer with a strong academic foundation in programming, algorithms, and software engineering principles. I recently completed my studies and am awaiting graduation. I’m an undergraduate at the University of Colombo, pursuing a Bachelor of Information and Communication Technology (Honors), while also studying part-time for a BSc in Computer Science at the Informatics Institute of Technology (IIT). Through this dual academic path, I’ve built a solid understanding of core technical concepts and developed a passion for solving real-world problems through software.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                  and staying up-to-date with the latest industry trends.
+                  When I'm not coding, you can find me exploring new technologies, staying up-to-date with the latest industry trends, or enjoying my hobbies such as playing badminton and dancing to stay active and creative.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 mt-8">
