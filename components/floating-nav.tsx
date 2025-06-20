@@ -44,7 +44,7 @@ export function FloatingNav() {
   return (
     <>
       <motion.div
-        className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 ${isVisible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+        className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 ${isVisible ? "opacity-110" : "opacity-0 pointer-events-none"}`}
         initial={{ y: -100 }}
         animate={{ y: isVisible ? 0 : -100 }}
         transition={{ duration: 0.3 }}
@@ -70,7 +70,7 @@ export function FloatingNav() {
               </Button>
             </div>
           ) : (
-            <div className="relative flex items-center gap-1">
+            <div className="relative flex items-center gap-0.1">
               <Link href="/" className="font-bold text-lg mr-4">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-medium to-green-dark">
                   Rash
@@ -87,13 +87,6 @@ export function FloatingNav() {
                   {item.name}
                 </Link>
               ))}
-              {/* <Button
-                size="sm"
-                className="ml-2 bg-gradient-to-r from-green-dark to-green-medium hover:from-green-medium hover:to-green-dark border-0"
-              >
-                Resume
-              </Button> */}
-
               <a href="./Rashmi_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
               <Button 
                   size="sm"

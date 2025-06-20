@@ -134,7 +134,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-green-dark/20 to-green-medium/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="./profilephoto.jpg?height=600&width=600"
+                  src="./rashmi.jpg?height=600&width=600"
                   alt="Rashmi Nimesha Gamage"
                   className="w-full h-full object-cover"
                 />
