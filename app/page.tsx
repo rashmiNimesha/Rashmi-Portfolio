@@ -255,7 +255,7 @@ real-time payment notifications, and a passenger app for QR-based payments throu
               description="TechPluse is a mobile application designed to deliver the latest news and updates related to academics, events, and sports within the Faculty of Technology at the University of Colombo. The app provides students and staff with a centralized platform to stay informed about faculty-related activities, announcements, and achievements, ensuring seamless communication and engagement across the university community."
               tags={["JAVA", "Firebase"]}
               image="./techpluse.png?height=400&width=600"
-              demoUrl="https://www.figma.com/proto/k4f3BM0TMl1UYrcf0vKZ6h/TechPulse?node-id=7-59&t=m4C3HliEtehuOs38-1"
+              demoUrl="https://youtu.be/HQAXe0toHR0"
               repoUrl="https://github.com/rashmiNimesha/techPluseApp.git"
             />
             <ProjectCard
